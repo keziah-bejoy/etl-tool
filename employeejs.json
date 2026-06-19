@@ -1,0 +1,2202 @@
+[
+  {
+    "employee_id": 1001,
+    "name": "Grace",
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "9870093378",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": -10,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "bobcompany.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1003,
+    "name": "GRACE",
+    "age": -10,
+    "department": "Sales",
+    "salary": null,
+    "email": "grace3@company.com",
+    "phone": "9422891097",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1004,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": -5000,
+    "email": "charliecompany.com",
+    "phone": "9232871325",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": "GRACE",
+    "age": null,
+    "department": "Operations",
+    "salary": 42220,
+    "email": "",
+    "phone": "9854680220",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1006,
+    "name": "Charlie",
+    "age": 58,
+    "department": "HR",
+    "salary": "50k",
+    "email": "charlie6@company.com",
+    "phone": "",
+    "joining_date": "03/09/2018"
+  },
+  {
+    "employee_id": 1007,
+    "name": null,
+    "age": null,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "frankcompany.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1008,
+    "name": "BOB",
+    "age": null,
+    "department": "IT",
+    "salary": -5000,
+    "email": "bobcompany.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1009,
+    "name": " Charlie ",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": null,
+    "email": "charliecompany.com",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1010,
+    "name": " Bob ",
+    "age": "twenty-five",
+    "department": "Marketing",
+    "salary": -5000,
+    "email": "",
+    "phone": null,
+    "joining_date": "10-07-2025"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Helen",
+    "age": 150,
+    "department": "Marekting",
+    "salary": 93291,
+    "email": "",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1012,
+    "name": "HELEN",
+    "age": null,
+    "department": "Sales",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": null,
+    "joining_date": "Jan 10 2022"
+  },
+  {
+    "employee_id": 1013,
+    "name": null,
+    "age": 150,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "helen13@company.com",
+    "phone": "9131707606",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1014,
+    "name": "GRACE",
+    "age": null,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": "gracecompany.com",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1015,
+    "name": " Eva ",
+    "age": 150,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "eva15@company.com",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1016,
+    "name": null,
+    "age": null,
+    "department": "Finanace",
+    "salary": null,
+    "email": null,
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": null,
+    "email": "eva17@company.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1018,
+    "name": " Grace ",
+    "age": 37,
+    "department": "Marketing",
+    "salary": 43568,
+    "email": "grace18@company.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1019,
+    "name": "Frank",
+    "age": null,
+    "department": "IT",
+    "salary": null,
+    "email": null,
+    "phone": "12345",
+    "joining_date": "20/09/2018"
+  },
+  {
+    "employee_id": 1020,
+    "name": "BOB",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": -5000,
+    "email": "bob20@company.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1021,
+    "name": "ALICE",
+    "age": "twenty-five",
+    "department": "Marketing",
+    "salary": null,
+    "email": "alice21@company.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1022,
+    "name": "Bob",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": 40276,
+    "email": "bob22@company.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1023,
+    "name": " Frank ",
+    "age": 45,
+    "department": "Operations",
+    "salary": "\u20b950000",
+    "email": "frankcompany.com",
+    "phone": "9136107688",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1024,
+    "name": "Bob",
+    "age": -10,
+    "department": "Sales",
+    "salary": "\u20b950000",
+    "email": "bobcompany.com",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1025,
+    "name": "EVA",
+    "age": null,
+    "department": "Finance",
+    "salary": 94207,
+    "email": "",
+    "phone": "",
+    "joining_date": "08-23-2025"
+  },
+  {
+    "employee_id": 1026,
+    "name": "FRANK",
+    "age": 25,
+    "department": "Marekting",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1027,
+    "name": null,
+    "age": null,
+    "department": "HR",
+    "salary": null,
+    "email": "",
+    "phone": "9389776058",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1028,
+    "name": null,
+    "age": -10,
+    "department": "Sales",
+    "salary": null,
+    "email": "",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1029,
+    "name": "Bob",
+    "age": "twenty-five",
+    "department": "Sales",
+    "salary": "50k",
+    "email": "bobcompany.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "DAVID",
+    "age": 39,
+    "department": "Marekting",
+    "salary": "\u20b950000",
+    "email": "davidcompany.com",
+    "phone": "",
+    "joining_date": "27/06/2023"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Grace",
+    "age": 150,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": null,
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1032,
+    "name": null,
+    "age": -10,
+    "department": "Marketing",
+    "salary": null,
+    "email": "",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1033,
+    "name": " Eva ",
+    "age": 150,
+    "department": "Operations",
+    "salary": null,
+    "email": "eva33@company.com",
+    "phone": "9911502774",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1034,
+    "name": "Frank",
+    "age": 47,
+    "department": "Marketing",
+    "salary": null,
+    "email": "frankcompany.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1035,
+    "name": " Grace ",
+    "age": 39,
+    "department": "IT",
+    "salary": null,
+    "email": null,
+    "phone": "9671780040",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1036,
+    "name": null,
+    "age": 52,
+    "department": "Sales",
+    "salary": 82182,
+    "email": "alice36@company.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "ALICE",
+    "age": 150,
+    "department": "Marekting",
+    "salary": null,
+    "email": "",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1038,
+    "name": "Frank",
+    "age": 150,
+    "department": "Operations",
+    "salary": null,
+    "email": "frankcompany.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1039,
+    "name": " Alice ",
+    "age": null,
+    "department": "Marketing",
+    "salary": -5000,
+    "email": "alicecompany.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1040,
+    "name": " Eva ",
+    "age": 150,
+    "department": "Marketing",
+    "salary": -5000,
+    "email": null,
+    "phone": "9373470492",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1041,
+    "name": "Frank",
+    "age": 37,
+    "department": "Operations",
+    "salary": -5000,
+    "email": "frankcompany.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1042,
+    "name": "EVA",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": -5000,
+    "email": "eva42@company.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1043,
+    "name": "DAVID",
+    "age": 150,
+    "department": "HR",
+    "salary": "50k",
+    "email": "david43@company.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Sales",
+    "salary": "50k",
+    "email": "bob44@company.com",
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1045,
+    "name": null,
+    "age": -10,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": "",
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1046,
+    "name": " Charlie ",
+    "age": null,
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": "charliecompany.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1047,
+    "name": null,
+    "age": 150,
+    "department": "IT",
+    "salary": -5000,
+    "email": "",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1048,
+    "name": "FRANK",
+    "age": 24,
+    "department": "HR",
+    "salary": "50k",
+    "email": "",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1049,
+    "name": " Alice ",
+    "age": -10,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "alice49@company.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": null,
+    "email": "frank50@company.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": "helencompany.com",
+    "phone": "",
+    "joining_date": "01-26-2022"
+  },
+  {
+    "employee_id": 1052,
+    "name": "DAVID",
+    "age": 150,
+    "department": "HR",
+    "salary": -5000,
+    "email": "david52@company.com",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1053,
+    "name": "Bob",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": "50k",
+    "email": "bob53@company.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1054,
+    "name": "Frank",
+    "age": -10,
+    "department": "Marekting",
+    "salary": 58397,
+    "email": null,
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "ALICE",
+    "age": 150,
+    "department": "Finanace",
+    "salary": -5000,
+    "email": null,
+    "phone": "9886723376",
+    "joining_date": "07-16-2018"
+  },
+  {
+    "employee_id": 1056,
+    "name": " Grace ",
+    "age": 49,
+    "department": "Sales",
+    "salary": 46618,
+    "email": "grace56@company.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1057,
+    "name": " Alice ",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": "50k",
+    "email": "",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 23,
+    "department": "IT",
+    "salary": "50k",
+    "email": "frankcompany.com",
+    "phone": "",
+    "joining_date": "01-05-2020"
+  },
+  {
+    "employee_id": 1059,
+    "name": "GRACE",
+    "age": -10,
+    "department": "Operations",
+    "salary": "50k",
+    "email": null,
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1060,
+    "name": "ALICE",
+    "age": 150,
+    "department": "IT",
+    "salary": -5000,
+    "email": "alicecompany.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 39,
+    "department": "HR",
+    "salary": null,
+    "email": "",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "David",
+    "age": -10,
+    "department": "Sales",
+    "salary": "\u20b950000",
+    "email": "davidcompany.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1063,
+    "name": "CHARLIE",
+    "age": 150,
+    "department": "Finanace",
+    "salary": null,
+    "email": "",
+    "phone": "9144067628",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1064,
+    "name": null,
+    "age": -10,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "grace64@company.com",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1065,
+    "name": " Frank ",
+    "age": -10,
+    "department": "IT",
+    "salary": 99013,
+    "email": "frankcompany.com",
+    "phone": null,
+    "joining_date": "2018/07/21"
+  },
+  {
+    "employee_id": 1066,
+    "name": "DAVID",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": 101172,
+    "email": null,
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": "Frank",
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": "frank67@company.com",
+    "phone": "12345",
+    "joining_date": "01-01-2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": "FRANK",
+    "age": 24,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "frankcompany.com",
+    "phone": "",
+    "joining_date": "20/12/2025"
+  },
+  {
+    "employee_id": 1069,
+    "name": " Eva ",
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "50k",
+    "email": "eva69@company.com",
+    "phone": null,
+    "joining_date": "Jan 22 2025"
+  },
+  {
+    "employee_id": 1005,
+    "name": "David",
+    "age": null,
+    "department": "Operations",
+    "salary": -5000,
+    "email": null,
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1071,
+    "name": null,
+    "age": -10,
+    "department": "Finance",
+    "salary": null,
+    "email": "david71@company.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1072,
+    "name": null,
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": 118010,
+    "email": "charliecompany.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1073,
+    "name": "Helen",
+    "age": 22,
+    "department": "Finanace",
+    "salary": null,
+    "email": null,
+    "phone": "",
+    "joining_date": "04-21-2020"
+  },
+  {
+    "employee_id": 1074,
+    "name": " Alice ",
+    "age": -10,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "alice74@company.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Helen",
+    "age": null,
+    "department": "Operations",
+    "salary": null,
+    "email": "",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1076,
+    "name": null,
+    "age": null,
+    "department": "Operations",
+    "salary": 119863,
+    "email": "",
+    "phone": "12345",
+    "joining_date": "2022/01/23"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Alice ",
+    "age": -10,
+    "department": "Marketing",
+    "salary": 98746,
+    "email": null,
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 150,
+    "department": "IT",
+    "salary": "50k",
+    "email": "helen78@company.com",
+    "phone": "9707603211",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1079,
+    "name": "EVA",
+    "age": 150,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Charlie ",
+    "age": null,
+    "department": "HR",
+    "salary": -5000,
+    "email": "charliecompany.com",
+    "phone": "9456654180",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "BOB",
+    "age": 36,
+    "department": "IT",
+    "salary": "50k",
+    "email": "",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": " Helen ",
+    "age": null,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": null,
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Eva",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": null,
+    "email": "",
+    "phone": null,
+    "joining_date": "2019/04/29"
+  },
+  {
+    "employee_id": 1084,
+    "name": null,
+    "age": null,
+    "department": "HR",
+    "salary": -5000,
+    "email": "helencompany.com",
+    "phone": "9471728265",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1085,
+    "name": "DAVID",
+    "age": 150,
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1086,
+    "name": "Grace",
+    "age": 40,
+    "department": "Marketing",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1087,
+    "name": "Alice",
+    "age": 48,
+    "department": "Finanace",
+    "salary": -5000,
+    "email": "alice87@company.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": " Eva ",
+    "age": null,
+    "department": "Operations",
+    "salary": "50k",
+    "email": "evacompany.com",
+    "phone": "9729365287",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1089,
+    "name": "Eva",
+    "age": 150,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "12345",
+    "joining_date": "2024/12/07"
+  },
+  {
+    "employee_id": 1005,
+    "name": "David",
+    "age": -10,
+    "department": "IT",
+    "salary": null,
+    "email": null,
+    "phone": "9369643641",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1091,
+    "name": "ALICE",
+    "age": 36,
+    "department": "Finance",
+    "salary": -5000,
+    "email": "",
+    "phone": "9839482407",
+    "joining_date": "Dec 30 2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "9403912691",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1093,
+    "name": "David",
+    "age": 43,
+    "department": "Operations",
+    "salary": -5000,
+    "email": null,
+    "phone": null,
+    "joining_date": "17/03/2023"
+  },
+  {
+    "employee_id": 1094,
+    "name": "Charlie",
+    "age": null,
+    "department": "Marketing",
+    "salary": null,
+    "email": null,
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1095,
+    "name": null,
+    "age": null,
+    "department": "Sales",
+    "salary": -5000,
+    "email": "",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1096,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": null,
+    "email": "",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1097,
+    "name": "FRANK",
+    "age": "twenty-five",
+    "department": "Marketing",
+    "salary": "\u20b950000",
+    "email": "frank97@company.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1098,
+    "name": "HELEN",
+    "age": null,
+    "department": "HR",
+    "salary": null,
+    "email": "helen98@company.com",
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 150,
+    "department": "Sales",
+    "salary": null,
+    "email": null,
+    "phone": "9516550851",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Bob",
+    "age": 150,
+    "department": "Finance",
+    "salary": "50k",
+    "email": "",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1101,
+    "name": "David",
+    "age": null,
+    "department": "Sales",
+    "salary": "50k",
+    "email": "davidcompany.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 150,
+    "department": "Finance",
+    "salary": "50k",
+    "email": null,
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Alice ",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": -5000,
+    "email": "alice103@company.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": "FRANK",
+    "age": null,
+    "department": "IT",
+    "salary": "50k",
+    "email": "frank104@company.com",
+    "phone": "9458679712",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Charlie",
+    "age": null,
+    "department": "Operations",
+    "salary": null,
+    "email": "charlie105@company.com",
+    "phone": "9119950171",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1106,
+    "name": "David",
+    "age": -10,
+    "department": "Finance",
+    "salary": -5000,
+    "email": "david106@company.com",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1107,
+    "name": null,
+    "age": null,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": "helencompany.com",
+    "phone": "9239720184",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1108,
+    "name": "FRANK",
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "50k",
+    "email": "",
+    "phone": "9406589179",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": "Bob",
+    "age": 150,
+    "department": "Operations",
+    "salary": -5000,
+    "email": "bob109@company.com",
+    "phone": "9665566581",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1110,
+    "name": "David",
+    "age": 24,
+    "department": "Marketing",
+    "salary": null,
+    "email": null,
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1111,
+    "name": null,
+    "age": null,
+    "department": "Marketing",
+    "salary": null,
+    "email": "helen111@company.com",
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1112,
+    "name": " Bob ",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": 49560,
+    "email": "bob112@company.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1113,
+    "name": null,
+    "age": 29,
+    "department": "IT",
+    "salary": null,
+    "email": "frank113@company.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1114,
+    "name": "FRANK",
+    "age": null,
+    "department": "Finanace",
+    "salary": 33942,
+    "email": "frankcompany.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": -10,
+    "department": "Sales",
+    "salary": null,
+    "email": "eva115@company.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1116,
+    "name": " Helen ",
+    "age": 29,
+    "department": "Operations",
+    "salary": 32089,
+    "email": null,
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1117,
+    "name": " Eva ",
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": "eva117@company.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1118,
+    "name": "HELEN",
+    "age": 150,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1119,
+    "name": "GRACE",
+    "age": 47,
+    "department": "Sales",
+    "salary": 65331,
+    "email": null,
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1120,
+    "name": "CHARLIE",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1121,
+    "name": null,
+    "age": -10,
+    "department": "Marketing",
+    "salary": null,
+    "email": "charlie121@company.com",
+    "phone": "",
+    "joining_date": "Aug 12 2019"
+  },
+  {
+    "employee_id": 1122,
+    "name": "GRACE",
+    "age": -10,
+    "department": "Finance",
+    "salary": -5000,
+    "email": "gracecompany.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1123,
+    "name": "ALICE",
+    "age": 150,
+    "department": "HR",
+    "salary": -5000,
+    "email": "alicecompany.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1124,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": "50k",
+    "email": "davidcompany.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1125,
+    "name": "Eva",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": -5000,
+    "email": "evacompany.com",
+    "phone": "9653515369",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1126,
+    "name": "HELEN",
+    "age": null,
+    "department": "HR",
+    "salary": -5000,
+    "email": "",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "Helen",
+    "age": 47,
+    "department": "Sales",
+    "salary": null,
+    "email": "helen127@company.com",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1128,
+    "name": "BOB",
+    "age": 46,
+    "department": "HR",
+    "salary": "50k",
+    "email": "bobcompany.com",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1129,
+    "name": "EVA",
+    "age": 40,
+    "department": "Finance",
+    "salary": "50k",
+    "email": "evacompany.com",
+    "phone": "9475921440",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1130,
+    "name": " Charlie ",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": -5000,
+    "email": null,
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "BOB",
+    "age": 58,
+    "department": "Marekting",
+    "salary": null,
+    "email": "bobcompany.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1132,
+    "name": null,
+    "age": -10,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "evacompany.com",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1133,
+    "name": null,
+    "age": 150,
+    "department": "HR",
+    "salary": 47035,
+    "email": null,
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Bob ",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "bob134@company.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1135,
+    "name": "Alice",
+    "age": null,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "alice135@company.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Helen ",
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": 106367,
+    "email": "helencompany.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": null,
+    "department": "IT",
+    "salary": "50k",
+    "email": "frank137@company.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1138,
+    "name": "GRACE",
+    "age": -10,
+    "department": "Marketing",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "12345",
+    "joining_date": "Mar 12 2023"
+  },
+  {
+    "employee_id": 1139,
+    "name": " Charlie ",
+    "age": null,
+    "department": "Finanace",
+    "salary": "50k",
+    "email": "",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1140,
+    "name": "CHARLIE",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": 71092,
+    "email": "",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1141,
+    "name": null,
+    "age": 150,
+    "department": "Sales",
+    "salary": "50k",
+    "email": null,
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1142,
+    "name": "FRANK",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1143,
+    "name": null,
+    "age": null,
+    "department": "IT",
+    "salary": "50k",
+    "email": null,
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1144,
+    "name": "Charlie",
+    "age": "twenty-five",
+    "department": "Marketing",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "",
+    "joining_date": "2019/04/30"
+  },
+  {
+    "employee_id": 1145,
+    "name": "FRANK",
+    "age": null,
+    "department": "Marketing",
+    "salary": null,
+    "email": "frank145@company.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Frank ",
+    "age": null,
+    "department": "Operations",
+    "salary": -5000,
+    "email": "",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1147,
+    "name": null,
+    "age": 32,
+    "department": "Sales",
+    "salary": 83057,
+    "email": "",
+    "phone": "9256856719",
+    "joining_date": "09-06-2025"
+  },
+  {
+    "employee_id": 1148,
+    "name": "Charlie",
+    "age": null,
+    "department": "HR",
+    "salary": null,
+    "email": "charliecompany.com",
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1149,
+    "name": "Grace",
+    "age": 51,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": "grace149@company.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1150,
+    "name": "Alice",
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": "50k",
+    "email": "alice150@company.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1151,
+    "name": "CHARLIE",
+    "age": 150,
+    "department": "Finance",
+    "salary": -5000,
+    "email": null,
+    "phone": null,
+    "joining_date": "2018-08-30"
+  },
+  {
+    "employee_id": 1152,
+    "name": "BOB",
+    "age": 150,
+    "department": "Marekting",
+    "salary": 72160,
+    "email": null,
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1153,
+    "name": " Frank ",
+    "age": 35,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": "",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "HELEN",
+    "age": null,
+    "department": "Operations",
+    "salary": "\u20b950000",
+    "email": "helencompany.com",
+    "phone": "12345",
+    "joining_date": "2018/12/21"
+  },
+  {
+    "employee_id": 1005,
+    "name": "ALICE",
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": "50k",
+    "email": "",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1156,
+    "name": "BOB",
+    "age": 150,
+    "department": "Finance",
+    "salary": "50k",
+    "email": "bobcompany.com",
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": "50k",
+    "email": "",
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1158,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1159,
+    "name": "Charlie",
+    "age": null,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "charliecompany.com",
+    "phone": "",
+    "joining_date": "2025-02-03"
+  },
+  {
+    "employee_id": 1160,
+    "name": " Helen ",
+    "age": 43,
+    "department": "Finance",
+    "salary": -5000,
+    "email": "helencompany.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 24,
+    "department": "HR",
+    "salary": 98497,
+    "email": "frank161@company.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1162,
+    "name": "ALICE",
+    "age": -10,
+    "department": "IT",
+    "salary": "50k",
+    "email": "alicecompany.com",
+    "phone": "9305208598",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1163,
+    "name": "David",
+    "age": 43,
+    "department": "Operations",
+    "salary": 65822,
+    "email": "",
+    "phone": "9458783901",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": "DAVID",
+    "age": -10,
+    "department": "Sales",
+    "salary": -5000,
+    "email": "",
+    "phone": null,
+    "joining_date": null
+  },
+  {
+    "employee_id": 1165,
+    "name": "BOB",
+    "age": -10,
+    "department": "Sales",
+    "salary": -5000,
+    "email": "",
+    "phone": "12345",
+    "joining_date": "Aug 04 2020"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": 34,
+    "department": "Sales",
+    "salary": 95635,
+    "email": "alicecompany.com",
+    "phone": "",
+    "joining_date": "Apr 18 2019"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": -10,
+    "department": "Sales",
+    "salary": 37189,
+    "email": null,
+    "phone": "9912243608",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1168,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1169,
+    "name": null,
+    "age": null,
+    "department": "Finanace",
+    "salary": null,
+    "email": null,
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1170,
+    "name": " Charlie ",
+    "age": null,
+    "department": "Finanace",
+    "salary": null,
+    "email": null,
+    "phone": "",
+    "joining_date": "2019-02-19"
+  },
+  {
+    "employee_id": 1005,
+    "name": " David ",
+    "age": "twenty-five",
+    "department": "Marekting",
+    "salary": "50k",
+    "email": null,
+    "phone": "12345",
+    "joining_date": "2018/06/21"
+  },
+  {
+    "employee_id": 1005,
+    "name": "David",
+    "age": 52,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": null,
+    "phone": null,
+    "joining_date": "13/08/2020"
+  },
+  {
+    "employee_id": 1173,
+    "name": "Frank",
+    "age": null,
+    "department": "HR",
+    "salary": -5000,
+    "email": null,
+    "phone": null,
+    "joining_date": "Nov 27 2018"
+  },
+  {
+    "employee_id": 1174,
+    "name": "Helen",
+    "age": 150,
+    "department": "Sales",
+    "salary": null,
+    "email": null,
+    "phone": "12345",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1175,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Sales",
+    "salary": 86583,
+    "email": null,
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1176,
+    "name": " Bob ",
+    "age": -10,
+    "department": "Finanace",
+    "salary": "50k",
+    "email": null,
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1177,
+    "name": "Frank",
+    "age": 26,
+    "department": "Sales",
+    "salary": null,
+    "email": "",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1178,
+    "name": null,
+    "age": 150,
+    "department": "Finance",
+    "salary": null,
+    "email": "grace178@company.com",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1179,
+    "name": "Helen",
+    "age": 28,
+    "department": "Marekting",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Frank ",
+    "age": 150,
+    "department": "Operations",
+    "salary": null,
+    "email": null,
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1181,
+    "name": "GRACE",
+    "age": null,
+    "department": "HR",
+    "salary": 80951,
+    "email": "grace181@company.com",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1182,
+    "name": " Grace ",
+    "age": null,
+    "department": "IT",
+    "salary": -5000,
+    "email": "gracecompany.com",
+    "phone": "",
+    "joining_date": "2021/09/09"
+  },
+  {
+    "employee_id": 1005,
+    "name": "EVA",
+    "age": null,
+    "department": "Operations",
+    "salary": "50k",
+    "email": "evacompany.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "CHARLIE",
+    "age": 150,
+    "department": "Marekting",
+    "salary": 48804,
+    "email": "charlie184@company.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1185,
+    "name": " David ",
+    "age": 150,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Alice ",
+    "age": -10,
+    "department": "Finance",
+    "salary": null,
+    "email": "alicecompany.com",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1187,
+    "name": "EVA",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": 48005,
+    "email": "eva187@company.com",
+    "phone": "9935645099",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1188,
+    "name": null,
+    "age": 28,
+    "department": "Operations",
+    "salary": null,
+    "email": "frank188@company.com",
+    "phone": null,
+    "joining_date": "12-02-2020"
+  },
+  {
+    "employee_id": 1189,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "frank189@company.com",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1190,
+    "name": null,
+    "age": null,
+    "department": "Finance",
+    "salary": -5000,
+    "email": null,
+    "phone": "",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1191,
+    "name": " Frank ",
+    "age": 150,
+    "department": "HR",
+    "salary": "\u20b950000",
+    "email": "frank191@company.com",
+    "phone": "9444644747",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1192,
+    "name": " Eva ",
+    "age": 45,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "",
+    "phone": "9732904789",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1005,
+    "name": "FRANK",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": "50k",
+    "email": "frank193@company.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1194,
+    "name": "ALICE",
+    "age": "twenty-five",
+    "department": "Sales",
+    "salary": -5000,
+    "email": "",
+    "phone": "9445409618",
+    "joining_date": "2019-09-15"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": -10,
+    "department": "Marekting",
+    "salary": -5000,
+    "email": "grace195@company.com",
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1196,
+    "name": "Charlie",
+    "age": -10,
+    "department": "Finanace",
+    "salary": "50k",
+    "email": "",
+    "phone": null,
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": " Alice ",
+    "age": "twenty-five",
+    "department": "Sales",
+    "salary": 103446,
+    "email": null,
+    "phone": "9596308383",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1198,
+    "name": null,
+    "age": null,
+    "department": "Operations",
+    "salary": 90663,
+    "email": null,
+    "phone": null,
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1199,
+    "name": null,
+    "age": null,
+    "department": "Finanace",
+    "salary": null,
+    "email": "",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1200,
+    "name": "Eva",
+    "age": null,
+    "department": "Finance",
+    "salary": null,
+    "email": "eva200@company.com",
+    "phone": "",
+    "joining_date": "05-22-2023"
+  },
+  {
+    "employee_id": 1001,
+    "name": "Grace",
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "",
+    "phone": "9870093378",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": -10,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "bobcompany.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1003,
+    "name": "GRACE",
+    "age": -10,
+    "department": "Sales",
+    "salary": null,
+    "email": "grace3@company.com",
+    "phone": "9422891097",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1004,
+    "name": null,
+    "age": "twenty-five",
+    "department": "Finanace",
+    "salary": -5000,
+    "email": "charliecompany.com",
+    "phone": "9232871325",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1005,
+    "name": "GRACE",
+    "age": null,
+    "department": "Operations",
+    "salary": 42220,
+    "email": "",
+    "phone": "9854680220",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1006,
+    "name": "Charlie",
+    "age": 58,
+    "department": "HR",
+    "salary": "50k",
+    "email": "charlie6@company.com",
+    "phone": "",
+    "joining_date": "03/09/2018"
+  },
+  {
+    "employee_id": 1007,
+    "name": null,
+    "age": null,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "frankcompany.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1008,
+    "name": "BOB",
+    "age": null,
+    "department": "IT",
+    "salary": -5000,
+    "email": "bobcompany.com",
+    "phone": "12345",
+    "joining_date": null
+  },
+  {
+    "employee_id": 1009,
+    "name": " Charlie ",
+    "age": "twenty-five",
+    "department": "Operations",
+    "salary": null,
+    "email": "charliecompany.com",
+    "phone": "",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1010,
+    "name": " Bob ",
+    "age": "twenty-five",
+    "department": "Marketing",
+    "salary": -5000,
+    "email": "",
+    "phone": null,
+    "joining_date": "10-07-2025"
+  },
+  {
+    "employee_id": 1005,
+    "name": "Helen",
+    "age": 150,
+    "department": "Marekting",
+    "salary": 93291,
+    "email": "",
+    "phone": "12345",
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1012,
+    "name": "HELEN",
+    "age": null,
+    "department": "Sales",
+    "salary": "\u20b950000",
+    "email": null,
+    "phone": null,
+    "joining_date": "Jan 10 2022"
+  },
+  {
+    "employee_id": 1013,
+    "name": null,
+    "age": 150,
+    "department": "Finance",
+    "salary": "\u20b950000",
+    "email": "helen13@company.com",
+    "phone": "9131707606",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1014,
+    "name": "GRACE",
+    "age": null,
+    "department": "Marketing",
+    "salary": "50k",
+    "email": "gracecompany.com",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1015,
+    "name": " Eva ",
+    "age": 150,
+    "department": "Finanace",
+    "salary": "\u20b950000",
+    "email": "eva15@company.com",
+    "phone": null,
+    "joining_date": ""
+  },
+  {
+    "employee_id": 1016,
+    "name": null,
+    "age": null,
+    "department": "Finanace",
+    "salary": null,
+    "email": null,
+    "phone": "",
+    "joining_date": "32/13/2024"
+  },
+  {
+    "employee_id": 1005,
+    "name": null,
+    "age": "twenty-five",
+    "department": "HR",
+    "salary": null,
+    "email": "eva17@company.com",
+    "phone": "",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1018,
+    "name": " Grace ",
+    "age": 37,
+    "department": "Marketing",
+    "salary": 43568,
+    "email": "grace18@company.com",
+    "phone": "12345",
+    "joining_date": "2024-99-99"
+  },
+  {
+    "employee_id": 1019,
+    "name": "Frank",
+    "age": null,
+    "department": "IT",
+    "salary": null,
+    "email": null,
+    "phone": "12345",
+    "joining_date": "20/09/2018"
+  },
+  {
+    "employee_id": 1020,
+    "name": "BOB",
+    "age": "twenty-five",
+    "department": "IT",
+    "salary": -5000,
+    "email": "bob20@company.com",
+    "phone": "",
+    "joining_date": "32/13/2024"
+  }
+]
