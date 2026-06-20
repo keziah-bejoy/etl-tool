@@ -281,7 +281,7 @@ Project Link: [https://github.com/keziah-bejoy/etl-tool](https://github.com/kezi
 [python-url]: https://www.python.org/
 [pandas-shield]: https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
 [pandas-url]: https://pandas.pydata.org/
-[license-shield]: https://img.shields.io/badge/license-Unlicense-orange?style=for-the-badge
-[license-url]: https://github.com/keziah-bejoy/etl-tool/blob/main/LICENSE.txt
+[license-shield]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
+[license-url]: https://github.com/keziah-bejoy/etl-tool/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/keziahh
+[linkedin-url]: https://www.linkedin.com/in/keziahh
