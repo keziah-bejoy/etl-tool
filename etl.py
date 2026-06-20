@@ -1,11 +1,9 @@
 import pandas as pd
 from dateutil.parser import parse
 import os
+import re
 from dotenv import load_dotenv
 
-# ==========================================
-# LOAD ENVIRONMENT VARIABLES
-# ==========================================
 load_dotenv()
 
 # File paths
@@ -48,9 +46,14 @@ PRODUCT_ID_KEYWORDS = os.getenv('PRODUCT_ID_KEYWORDS').split(',')
 QUANTITY_KEYWORDS = os.getenv('QUANTITY_KEYWORDS').split(',')
 PRICE_KEYWORDS = os.getenv('PRICE_KEYWORDS').split(',')
 
-# ==========================================
+#regex patterns
+EMAIL_PATTERN = os.getenv('EMAIL_PATTERN')
+PHONE_PATTERN = os.getenv('PHONE_PATTERN')
+DATE_PATTERN = os.getenv('DATE_PATTERN')
+URL_PATTERN = os.getenv('URL_PATTERN')
+ZIPCODE_PATTERN = os.getenv('ZIPCODE_PATTERN')
+
 # COLUMN KEYWORDS DICTIONARY
-# ==========================================
 column_keywords = {
     'email': EMAIL_KEYWORDS,
     'phone': PHONE_KEYWORDS,
@@ -70,12 +73,9 @@ column_keywords = {
     'price': PRICE_KEYWORDS
 }
 
-# ==========================================
-# FILE READING FUNCTION (Supports CSV, XLSX, JSON)
-# ==========================================
 
+# FILE READING FUNCTION (Supports CSV, XLSX, JSON)
 def read_file(filename):
-    """Read CSV, XLSX, or JSON file based on extension"""
     extension = filename.split('.')[-1].lower()
     
     if extension == 'csv':
@@ -90,12 +90,10 @@ def read_file(filename):
     
     return df
 
-# ==========================================
-# FILE SAVING FUNCTION (Supports CSV, XLSX, JSON)
-# ==========================================
+
+# FILE SAVING FUNCTION
 
 def save_file(df, filename):
-    """Save DataFrame to CSV, XLSX, or JSON based on extension"""
     extension = filename.split('.')[-1].lower()
     
     if extension == 'csv':
@@ -110,30 +108,24 @@ def save_file(df, filename):
     
     return True
 
-# ==========================================
 # READ INPUT FILE
-# ==========================================
-
 df = read_file(INPUT)
 if df is None:
-    print("Exiting...")
     exit()
 
 original = len(df)
 df = df.drop_duplicates()
 duplicated = original - len(df)
 
-# ==========================================
-# DATA DETECTION FUNCTIONS
-# ==========================================
 
+# DATA DETECTION FUNCTIONS
 def is_email(column):
     non_null = column.dropna()
     if len(non_null) == 0:
         return False
     count = 0
     for value in non_null:
-        if '@' in str(value):
+        if re.match(EMAIL_PATTERN, str(value)):
             count += 1
     percentage = (count / len(non_null)) * 100
     return percentage >= THRESHOLD
@@ -144,8 +136,7 @@ def is_phone(column):
         return False
     count = 0
     for value in non_null:
-        digits = ''.join(filter(str.isdigit, str(value)))
-        if len(digits) == 10:
+        if re.match(PHONE_PATTERN, str(value)):
             count += 1
     percentage = (count / len(non_null)) * 100
     return percentage >= THRESHOLD
@@ -156,11 +147,8 @@ def is_date(column):
         return False
     count = 0
     for value in non_null:
-        try:
-            parse(str(value))
+        if re.match(DATE_PATTERN, str(value)):
             count += 1
-        except:
-            pass
     percentage = (count / len(non_null)) * 100
     return percentage >= THRESHOLD
 
@@ -214,8 +202,7 @@ def is_url(column):
         return False
     count = 0
     for value in non_null:
-        val = str(value).lower()
-        if val.startswith(('http://', 'https://', 'www.')):
+        if re.match(URL_PATTERN, str(value)):
             count += 1
     percentage = (count / len(non_null)) * 100
     return percentage >= THRESHOLD
@@ -226,12 +213,8 @@ def is_zipcode(column):
         return False
     count = 0
     for value in non_null:
-        try:
-            zip_num = int(value)
-            if 10000 <= zip_num <= 999999:
-                count += 1
-        except:
-            pass
+        if re.match(ZIPCODE_PATTERN, str(value)):
+            count += 1
     percentage = (count / len(non_null)) * 100
     return percentage >= THRESHOLD
 
@@ -287,10 +270,7 @@ def is_price(column):
     percentage = (count / len(non_null)) * 100
     return percentage >= THRESHOLD
 
-# ==========================================
-# HYBRID COLUMN DETECTION
-# ==========================================
-
+#COLUMN DETECTION
 email_col = None
 phone_col = None
 department_col = None
@@ -311,117 +291,117 @@ price_col = None
 for col in df.columns:
     col_lower = col.lower()
     
-    # 1. Email: Name OR Data (contains @)
+    # 1. Email
     if email_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['email'])
         data_match = is_email(df[col])
         if name_match or data_match:
             email_col = col
     
-    # 2. Phone: Name OR Data (10 digits)
+    # 2. Phone: 
     if phone_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['phone'])
         data_match = is_phone(df[col])
         if name_match or data_match:
             phone_col = col
     
-    # 3. Date: Name AND Data (both required)
+    # 3. Date:
     if date_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['date'])
         data_match = is_date(df[col])
         if name_match and data_match:
             date_col = col
     
-    # 4. Age: Name AND Data (to avoid Quantity being detected as Age)
+    # 4. Age: 
     if age_col is None:
          name_match = any(kw in col_lower for kw in column_keywords['age'])
          data_match = is_age(df[col])
          if name_match and data_match:
             age_col = col
     
-    # 5. Gender: Name OR Data (valid gender values)
+    # 5. Gender: 
     if gender_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['gender'])
         data_match = is_gender(df[col])
         if name_match or data_match:
             gender_col = col
     
-    # 6. Status: Name OR Data (valid status values)
+    # 6. Status:
     if status_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['status'])
         data_match = is_status(df[col])
         if name_match or data_match:
             status_col = col
     
-    # 7. URL: Name OR Data (starts with http)
+    # 7. URL: 
     if url_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['url'])
         data_match = is_url(df[col])
         if name_match or data_match:
             url_col = col
     
-    # 8. Quantity: Name AND Data (small positive integer)
+    # 8. Quantity: 
     if quantity_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['quantity'])
         data_match = is_quantity(df[col])
         if name_match and data_match:
             quantity_col = col
     
-    # 9. Price: Name AND Data (reasonable price range)
+    # 9. Price: 
     if price_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['price'])
         data_match = is_price(df[col])
         if name_match and data_match:
             price_col = col
     
-    # 10. Salary: Name AND Data (large number range)
+    # 10. Salary: 
     if salary_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['salary'])
         data_match = is_salary(df[col])
         if name_match and data_match:
             salary_col = col
     
-    # 11. Zipcode: Name AND Data (5-6 digits)
+    # 11. Zipcode: 
     if zipcode_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['zipcode'])
         data_match = is_zipcode(df[col])
         if name_match and data_match:
             zipcode_col = col
     
-    # 12. Name: Name only
+    # 12. Name:
     if name_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['name'])
         if name_match:
             name_col = col
     
-    # 13. Department: Name only
+    # 13. Department: 
     if department_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['department'])
         if name_match:
             department_col = col
     
-    # 14. City: Name only
+    # 14. City: 
     if city_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['city'])
         if name_match:
             city_col = col
     
-    # 15. Country: Name only
+    # 15. Country: 
     if country_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['country'])
         if name_match:
             country_col = col
     
-    # 16. Product ID: Name only
+    # 16. Product ID:
     if product_id_col is None:
         name_match = any(kw in col_lower for kw in column_keywords['product_id'])
         if name_match:
             product_id_col = col
 
-# Print detected columns for debugging
-print("\n" + "="*50)
+# Print detected columns 
+print("\n" + "-"*50)
 print("DETECTED COLUMNS")
-print("="*50)
+print("-"*50)
 if email_col:
     print(f"Email: {email_col}")
 if phone_col:
@@ -454,11 +434,10 @@ if quantity_col:
     print(f"Quantity: {quantity_col}")
 if price_col:
     print(f"Price: {price_col}")
-print("="*50 + "\n")
+print("-"*50 + "\n")
 
-# ==========================================
+
 # NUMERIC CONVERSION
-# ==========================================
 if age_col is not None:
     df[age_col] = pd.to_numeric(df[age_col], errors='coerce')
 if salary_col is not None:
@@ -470,9 +449,8 @@ if price_col is not None:
 if zipcode_col is not None:
     df[zipcode_col] = pd.to_numeric(df[zipcode_col], errors='coerce')
 
-# ==========================================
+
 # DATE STANDARDIZATION
-# ==========================================
 if date_col is not None:
     def safe_parse_date(date_val):
         if pd.isna(date_val):
@@ -486,9 +464,8 @@ if date_col is not None:
     df[date_col] = pd.to_datetime(df[date_col], errors='coerce')
     df[date_col] = df[date_col].dt.strftime('%Y-%m-%d')
 
-# ==========================================
+
 # VALIDATION
-# ==========================================
 def check_row(row):
     problems = []
     
@@ -496,9 +473,7 @@ def check_row(row):
     if email_col is not None:
         email = row[email_col]
         if pd.notna(email):
-            if '@' not in str(email):
-                problems.append("Invalid email")
-            elif '.' not in str(email).split('@')[-1]:
+            if not re.match(EMAIL_PATTERN, str(email)):
                 problems.append("Invalid email")
         else:
             problems.append("Unknown email")
@@ -508,7 +483,7 @@ def check_row(row):
         phone = str(row[phone_col])
         if phone == "0000000000":
             problems.append("Missing phone number")
-        elif len(phone) != 10 or not phone.isdigit():
+        elif not re.match(PHONE_PATTERN, phone):
             problems.append("Invalid phone number")
     
     # Department
@@ -517,7 +492,7 @@ def check_row(row):
         if pd.isna(department) or department == "Unknown":
             problems.append("Unknown department")
     
-    # Age (using AGE_MIN and AGE_MAX from .env)
+    # Age 
     if age_col is not None:
         age = row[age_col]      
         try:
@@ -548,15 +523,17 @@ def check_row(row):
     # Date
     if date_col is not None:
         date = row[date_col]
-        if pd.isna(date):
+        if pd.notna(date):
+            if not re.match(DATE_PATTERN, str(date)):
+                problems.append("Invalid date format")
+        else:
             problems.append("Missing date")
     
     # URL
     if url_col is not None:
         url = row[url_col]
         if pd.notna(url):
-            url_str = str(url).lower()
-            if not (url_str.startswith('http://') or url_str.startswith('https://') or url_str.startswith('www.')):
+            if not re.match(URL_PATTERN, str(url)):
                 problems.append("Invalid URL")
         else:
             problems.append("Missing URL")
@@ -565,16 +542,12 @@ def check_row(row):
     if zipcode_col is not None:
         zipcode = row[zipcode_col]
         if pd.notna(zipcode):
-            try:
-                zip_num = int(zipcode)
-                if zip_num < 10000 or zip_num > 999999:
-                    problems.append("Invalid zipcode")
-            except:
-                problems.append("Invalid zipcode (non-numeric)")
+            if not re.match(ZIPCODE_PATTERN, str(zipcode)):
+                problems.append("Invalid zipcode")
         else:
             problems.append("Missing zipcode")
     
-    # Gender (using VALID_GENDERS from .env)
+    # Gender 
     if gender_col is not None:
         gender = row[gender_col]
         if pd.notna(gender):
@@ -584,7 +557,7 @@ def check_row(row):
         else:
             problems.append("Missing gender")
     
-    # Status (using VALID_STATUS from .env)
+    # Status 
     if status_col is not None:
         status = row[status_col]
         if pd.notna(status):
